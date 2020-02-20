@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/hex_to_segment/hex_to_7seg.xst" -ofn "/home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/hex_to_segment/hex_to_7seg.syr" 
