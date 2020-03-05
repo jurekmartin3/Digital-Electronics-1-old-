@@ -1,0 +1,30 @@
+V3 15
+FL /home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/03-segment/hex_to_segment/hex_to_7seg.vhd 2020/02/20.10:57:35 P.20131013
+EN work/hex_to_7seg 1583405522 \
+      FL /home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/03-segment/hex_to_segment/hex_to_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_7seg/Behavioral 1583405523 \
+      FL /home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/03-segment/hex_to_segment/hex_to_7seg.vhd \
+      EN work/hex_to_7seg 1583405522
+FL /home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/05-couter_binary/binary_counter/binary_cnt.vhd 2020/03/05.10:39:24 P.20131013
+EN work/binary_cnt 1583405520 \
+      FL /home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/05-couter_binary/binary_counter/binary_cnt.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary_cnt/Behavioral 1583405521 \
+      FL /home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/05-couter_binary/binary_counter/binary_cnt.vhd \
+      EN work/binary_cnt 1583405520
+FL /home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/05-couter_binary/binary_counter/clock_enable.vhd 2020/03/05.10:19:37 P.20131013
+EN work/clock_enable 1583405518 \
+      FL /home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/05-couter_binary/binary_counter/clock_enable.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock_enable/Behavioral 1583405519 \
+      FL /home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/05-couter_binary/binary_counter/clock_enable.vhd \
+      EN work/clock_enable 1583405518
+FL /home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/05-couter_binary/binary_counter/top.vhd 2020/03/05.11:51:53 P.20131013
+EN work/top 1583405524 \
+      FL /home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/05-couter_binary/binary_counter/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1583405525 \
+      FL /home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/05-couter_binary/binary_counter/top.vhd \
+      EN work/top 1583405524 CP work/clock_enable CP work/binary_cnt \
+      CP work/hex_to_7seg

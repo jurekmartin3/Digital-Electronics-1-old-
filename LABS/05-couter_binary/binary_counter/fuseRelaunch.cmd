@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/05-couter_binary/binary_counter/binary_cnt_test01_isim_beh.exe" -prj "/home/lab661/Documents/xjurek04/Digital-Electronics-1/LABS/05-couter_binary/binary_counter/binary_cnt_test01_beh.prj" "work.binary_cnt_test01" 
