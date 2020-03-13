@@ -2,6 +2,8 @@
 
 # Preparation tasks <h3>
 
+![waves](https://github.com/jurekmartin3/Digital-Electronics-1/blob/master/06-display_driver.png)
+
 ```javascript
 {signal: [
   ['Digit position',
@@ -28,4 +30,4 @@
   },
 }```
 
-![06](https://github.com/jurekmartin3/Digital-Electronics-1/blob/master/06-display_driver.png)
+
