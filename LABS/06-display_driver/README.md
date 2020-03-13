@@ -1,6 +1,6 @@
 # Lab 6: Driver for seven-segment display <h1> 
 
-1 Preparation tasks (done before the lab at home)
+# Preparation tasks <h3>
 
 ```javascript
 {signal: [
