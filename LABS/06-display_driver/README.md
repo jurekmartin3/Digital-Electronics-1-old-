@@ -28,4 +28,4 @@
   },
 }```
 
-![signaly](https://github.com/jurekmartin3/Digital-Electronics-1/blob/master/06-display_driver.jpg)
+![06](https://github.com/jurekmartin3/Digital-Electronics-1/blob/master/06-display_driver.png)
