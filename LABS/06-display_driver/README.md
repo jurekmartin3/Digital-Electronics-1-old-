@@ -1,8 +1,11 @@
-Lab 6: Driver for seven-segment display
+# Lab 6: Driver for seven-segment display <h1> 
+
 1 Preparation tasks (done before the lab at home)
 
+```javascript
 {signal: [
   ['Digit position',
+  
     {name: 'disp_dig_o(3)', wave: 'xx01..01..xx', },
     {name: 'disp_dig_o(2)', wave: 'xx101..01.xx', },
     {name: 'disp_dig_o(1)', wave: 'xx1.01..01xx', },
@@ -24,3 +27,4 @@ Lab 6: Driver for seven-segment display
     text: '4ms   4ms   4ms   4ms   4ms   4ms   4ms   4ms',
   },
 }
+}```
