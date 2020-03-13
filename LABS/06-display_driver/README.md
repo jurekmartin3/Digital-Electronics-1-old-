@@ -27,3 +27,5 @@
     text: '4ms   4ms   4ms   4ms   4ms   4ms   4ms   4ms',
   },
 }```
+
+![signaly](https://github.com/jurekmartin3/Digital-Electronics-1/blob/master/06-display_driver.jpg)
