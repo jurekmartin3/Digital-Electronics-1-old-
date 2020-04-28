@@ -26,32 +26,34 @@ ARCHITECTURE behavior OF ALU_tb00 IS
 			SW0_CPLD, SW1_CPLD, SW2_CPLD, SW3_CPLD : in std_logic; -- Input 0
 			SW4_CPLD, SW5_CPLD, SW6_CPLD, SW7_CPLD : in std_logic; -- Input 1
 			SW8_CPLD, SW9_CPLD, SW10_CPLD, SW11_CPLD : in std_logic -- Input 2
+			BTN0 : in  std_logic;
+			BTN1 : in  std_logic
         );
     END COMPONENT;
     
 
    --Inputs
-   signal A : std_logic_vector(3 downto 0) := (others => '0');
-   signal B : std_logic_vector(3 downto 0) := (others => '0');
-   signal ALU_Sel : std_logic_vector(3 downto 0) := (others => '0');
+   signal s_A : std_logic_vector(3 downto 0) := (others => '0');
+   signal s_B : std_logic_vector(3 downto 0) := (others => '0');
+   signal s_ALU_Sel : std_logic_vector(3 downto 0) := (others => '0');
 
  	--Outputs
-   signal ALU_Out : std_logic_vector(3 downto 0);
-   signal Carryout : std_logic;
+   signal s_ALU_Out : std_logic_vector(3 downto 0);
+   signal s_Carryout : std_logic;
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
 --   cconstant <clock>_period : time := 10 ns;
  
 BEGIN
- 
+
 	-- Instantiate the Unit Under Test (UUT)
    uut: ALU PORT MAP (
-          A => A,
-          B => B,
-          ALU_Sel => ALU_Sel,
-          ALU_Out => ALU_Out,
-          Carryout => Carryout
+          A => s_A,
+          B => s_B,
+          ALU_Sel => s_ALU_Sel,
+          ALU_Out => s_ALU_Out,
+          Carryout => s_Carryout
         );
 	clock_enable : entity work.clock_enable
     port map (
@@ -65,15 +67,7 @@ BEGIN
     	hex_i => s_seg,
         seg_o => disp_seg_o
     );
---   -- Clock process definitions
---   <clock>_process :process
---   begin
---		<clock> <= '0';
---		wait for <clock>_period/2;
---		<clock> <= '1';
---		wait for <clock>_period/2;
---   end process;
- 
+
 
    -- Stimulus process
    stim_proc: process
