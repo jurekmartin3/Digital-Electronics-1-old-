@@ -2,13 +2,29 @@
 
 ## Popis ALU 
 Aritmeticko logická jednotka je kombinační digitální elektrický obvod, který provádí bitové operace. Alu je základním stavebním kamenem různých počítačových obvodů. 4-bitová aritmetická jednotka má dva vstupy (A a B) a jeden výstup (Y) a může provádět 16 různých operací.  Logické operace jsou např.: NOT, AND, OR, XOR, clear operation, apod.
-![waves](ALU_block.png)
+
+![ALU_block](https://github.com/jurekmartin3/Digital-Electronics-1/blob/master/LABS/Project/Pictures/ALU_block.png)
+
 ## Základní části projektu 
 Testbench.vhd
+
 alu.vhd
+
 clock_enable.vhd
+
 hex_to_7seg.vhd
-## Schémata 
+
+## Schémata
+
+![Blokové schéma](https://github.com/jurekmartin3/Digital-Electronics-1/blob/master/LABS/Project/Pictures/ALU.png)
+
+Blokové schéma
+
+![ALU_74 181](https://github.com/jurekmartin3/Digital-Electronics-1/blob/master/LABS/Project/Pictures/1.png)
+
+Aritmeticko-logická jednotka realizovaná integrovaným obvodem 74181
+
+
 ## Tabulka operací
 <table>
 <tr><td><b>Řídící signál</b></td><td><b>Funkce</b></td><td><b>Popis</b></td></tr>
@@ -29,6 +45,10 @@ hex_to_7seg.vhd
 <tr><td> 1110 </td><td> Y = GR  </td><td> Větší než </td></tr>
 <tr><td> 1111 </td><td> Y = EQ </td><td> Rovná se </td></tr>
 </table>
+
+## Schéma
+
+![ALU_schematic](https://github.com/jurekmartin3/Digital-Electronics-1/blob/master/LABS/Project/Pictures/alu-schematic.png)
 
 ## Zdroje:
 
