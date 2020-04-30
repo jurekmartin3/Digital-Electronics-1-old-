@@ -6,7 +6,7 @@ Aritmeticko logická jednotka je kombinační digitální elektrický obvod, kte
 ![ALU_block](https://github.com/jurekmartin3/Digital-Electronics-1/blob/master/LABS/Project/Pictures/ALU_block.png)
 
 ## Základní části projektu 
-Testbench.vhd
+ALU_tb00.vhd
 
 alu.vhd
 
@@ -49,6 +49,10 @@ Aritmeticko-logická jednotka realizovaná integrovaným obvodem 74181
 ## Schéma
 
 ![ALU_schematic](https://github.com/jurekmartin3/Digital-Electronics-1/blob/master/LABS/Project/Pictures/alu-schematic.png)
+
+## Zhodnocení
+Během vypracování tohoto projektu jsme zjistili funkcionalitu algoritmické jednotky. Jedná se v podstatě o rozhodovací procesor, který provádí jisté předdefinované operacie v závislosti na tom, kolikatibitová ALU jednotka to je a jaké funkce jsou zadefinovány. Od počtu bitů ALU se odvíjí množství operací, které jednotka zvládá zpracovat. 
+Při tvorbě projektu jsme se ale potýkali s obtížemi a nepodařilo se nám projekt odsimulovat. Hotovou máme implementaci jednotky ve třídě ALU.vhd, nejpravděpodobnější chyba bude v ALU_tb00.vhd, což je náš testbench. 
 
 ## Zdroje:
 
